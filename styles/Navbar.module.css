@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  padding: 40px 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fea8b5;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  display: block;
+  fill: #ffffff;
+}
+
+.buttons li {
+  display: inline;
+  margin: 0 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.buttons li a:hover {
+  text-decoration: underline;
+}
+
+.cta {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 40px;
+  font-size: .9rem;
+  cursor: pointer;
+}
