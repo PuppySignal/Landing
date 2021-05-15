@@ -66,7 +66,7 @@
   font-weight: 900;
   margin: 0;
   line-height: 1;
-  color: #ffffff;
+  color: #fd5a5f;
 }
 
 .subtitle {
@@ -75,12 +75,13 @@
   font-weight: 400;
   margin: 0;
   line-height: 1;
-  color: #ffffff;
+  color: #fd5a5f;
 }
 
 .description {
   margin-top: 25px;
   line-height: 1.5;
+  color: #fd5a5f;
 }
 
 .cta {

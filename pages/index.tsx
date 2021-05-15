@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Paw scanner</title>
+        <title>Puppy Signal</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet" />
         <link rel="icon" href="/favicon.ico" />
@@ -22,10 +22,10 @@ export default function Home() {
         <div className={styles.banner} id="home">
           <div className={styles.bannerInfo}>
             <p className={styles.title}>
-              LOSE YOUR LOVED ONES?
+              NEVER EVER AGAIN
             </p>
             <p className={styles.subtitle}>
-              NEVER EVER AGAIN
+              LOSE YOUR LOVED ONES.
             </p>
             <p className={styles.description}>
               Upgrade for free your simple pet's tag with an unique QR Code
@@ -36,7 +36,7 @@ export default function Home() {
               <br/><br/>
               <strong>What do you need to start?</strong>
               <br/>
-              PawsTracer is currently available for Android and Web.
+              PuppySignal is currently available for Android and Web.
             </p>
           </div>
           <div className={styles.bannerImage}>
@@ -68,13 +68,13 @@ export default function Home() {
             If people scan the code, you will be notified with his gps locations, and many options to be in contact with who scanned it</p>
         </div>
         <div className={styles.whysection} id="why">
-          <h1>Why should I use PawsTracer?</h1>
+          <h1>Why should I use PuppySignal?</h1>
           <p>
             Well, that's a good question, there's currently a few others options in the market.
-            So why would you should use PawsTracer?
+            So why would you should use PuppySignal?
             <br/><br/>
             It's free! You don't need to first buy any kind of tag to activate your pet. It will be available for free to scan and print.
-            With PawsTracer your friend will always be the maxium priority.
+            With PuppySignal your friend will always be the maxium priority.
           </p>
         </div>
         <div className={styles.whysection} id="pricing">
@@ -86,7 +86,7 @@ export default function Home() {
         <div className={styles.whysection} id="support">
           <h1>Support</h1>
           <p>
-            help@pawstracer.com
+            help@PuppySignal.com
           </p>
         </div>
       </main>
