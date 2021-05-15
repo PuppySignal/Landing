@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Head from 'next/head'
 
 // @Project
-import PhonesImage from '../public/phones.png';
 import Navbar from '../components/navbar';
 import styles from '../styles/Home.module.css'
 
