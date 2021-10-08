@@ -54,6 +54,10 @@
   position: relative;
 }
 
+.bannerImageImg {
+  max-width: 100%;
+}
+
 .bannerImageBg {
   width: 50%;
   aspect-ratio: 1/1;

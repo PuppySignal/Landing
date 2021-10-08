@@ -20,14 +20,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.banner} id="home">
           <div className={styles.bannerImage}>
-            <Image 
+            <img 
               src="/phones_.png" 
-              alt="Landing demostration" 
-              layout="responsive"
-              quality={100}
-              width={1350}
-              height={1450}
-              objectFit="scale-down"
+              alt="Landing demostration"
               className={styles.bannerImageImg} 
             />
           </div>

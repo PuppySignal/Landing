@@ -13,14 +13,11 @@ const Navbar: React.FC<any> = (props) => {
     <>
       <nav className={styles.navbar}>
         <a href="#home">
-          <Image 
+          <img 
             src="/logo.png"
             alt="logo"
-            layout="fixed"
-            quality={100}
-            objectFit="scale-down"
-            width={50}
-            height={50}
+            width={45}
+            height={32}
           />
         </a>
         <ul className={styles.buttons}>
