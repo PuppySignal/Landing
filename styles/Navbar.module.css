@@ -1,7 +1,46 @@
+.burgermenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: min-content;
+  background-color: #fff;
+  z-index: 101;
+  border-bottom: 1px solid red;
+}
+
+.closeBtn {
+  position: absolute;
+  padding: 12px 16px;
+  border-radius: 50%;
+  background-color: #eee;
+  top: 15px;
+  right: 15px;
+}
+
+.burgermenu .buttonsburger li {
+  display: block;
+  margin: 30px 0;
+  margin-left: auto;
+}
+
+
+.buttonsburger li {
+  display: inline;
+  margin: 0 25px;
+  font-weight: 600;
+  color: #fd5a5f;
+}
+
+.buttonsburger li a:hover {
+  text-decoration: underline;
+}
+
+
 .navbar {
   width: 100%;
   height: 60px;
-  padding: 40px 5rem;
+  padding: 40px 2rem;
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +48,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99999999;
+  z-index: 100;
 }
 
 .logo {
@@ -17,6 +56,10 @@
   height: 50px;
   display: block;
   fill: #fd5a5f;
+}
+
+.buttons {
+  display: none;
 }
 
 .buttons li {
@@ -37,4 +80,21 @@
   border-radius: 40px;
   font-size: .9rem;
   cursor: pointer;
+}
+
+.burgericon {
+  display: ;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 40px 5rem;
+  }
+  .burgericon {
+    display: none;
+  }
+
+  .buttons {
+    display: flex;
+  }
 }

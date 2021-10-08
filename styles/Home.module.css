@@ -16,7 +16,8 @@
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  padding: 5rem;
+  padding: 2rem;
+  color: #fd5a5f;
 }
 
 .whysection {
@@ -25,43 +26,46 @@
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  padding: 5rem;
+  padding: 2rem;
+  color: #fd5a5f;
 }
 
 .banner {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   position: relative;
   height: 100vh;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .bannerInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 100%;
 }
 
 .bannerImage {
   width: 40%;
-  left: 5%;
-  top: 50px;
+  top: 25px;
   height: 100%;
+  display: none;
   position: relative;
 }
 
 .bannerImageBg {
-  width: 100%;
+  width: 50%;
   aspect-ratio: 1/1;
   display: block;
   border-radius: 50%;
-  background-color: #ffffff;
+  margin-left: 150px;
+  margin-top: 75px;
   position: absolute;
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 2.0em;
   font-family: 'Red hat Display';
   font-weight: 900;
   margin: 0;
@@ -70,7 +74,7 @@
 }
 
 .subtitle {
-  font-size: 2.5em;
+  font-size: 2.0em;
   font-family: 'Red hat Display';
   font-weight: 400;
   margin: 0;
@@ -98,3 +102,34 @@
   color: #ffffff;
   border: 2px solid #ffffff;
 }
+
+@media (min-width: 992px) { 
+  .bannerImage {
+    display: block;
+  }
+
+  .bannerInfo {
+    width: 55%;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .subtitle {
+    font-size: 2.5em;
+  }
+
+  .banner {
+    padding: 5rem;
+  }
+
+  .howtosection {
+    padding: 5rem;
+  }
+
+  .whysection {
+    padding: 5rem;
+  }
+}
+

@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Puppy Signal</title>
+        <title>PuppySignal</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap" rel="stylesheet" />
         <link rel="icon" href="/favicon.ico" />
@@ -19,12 +19,24 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div className={styles.banner} id="home">
+          <div className={styles.bannerImage}>
+            <Image 
+              src="/phones_.png" 
+              alt="Landing demostration" 
+              layout="responsive"
+              quality={100}
+              width={1350}
+              height={1450}
+              objectFit="scale-down"
+              className={styles.bannerImageImg} 
+            />
+          </div>
           <div className={styles.bannerInfo}>
             <p className={styles.title}>
-              NEVER EVER AGAIN
+              TRACK YOUR LOVED ONES
             </p>
             <p className={styles.subtitle}>
-              LOSE YOUR LOVED ONES.
+              NEVER LOSE THEM AGAIN.
             </p>
             <p className={styles.description}>
               Upgrade for free your simple pet's tag with an unique QR Code
@@ -35,21 +47,15 @@ export default function Home() {
               <br/><br/>
               <strong>What do you need to start?</strong>
               <br/>
-              PuppySignal is currently available for Android and Web.
+              <a href="#">
+                <img
+                  src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                  width="150"
+                  style={{ position: 'relative', right: 10, top: 25 }}
+                  onClick={()=> alert("Work in progress.")}
+                />
+              </a>
             </p>
-          </div>
-          <div className={styles.bannerImage}>
-            <div className={styles.bannerImageBg}></div>
-            <Image 
-              src="/phones.png" 
-              alt="Landing demostration" 
-              layout="responsive"
-              quality={100}
-              width={1350}
-              height={1450}
-              objectFit="scale-down"
-              className={styles.bannerImageImg} 
-            />
           </div>
         </div>
         <div className={styles.howtosection} id="howtouse">
@@ -69,10 +75,9 @@ export default function Home() {
         <div className={styles.whysection} id="why">
           <h1>Why should I use PuppySignal?</h1>
           <p>
-            Well, that's a good question, there's currently a few others options in the market.
-            So why would you should use PuppySignal?
+            Well, that's a good question.
             <br/><br/>
-            It's free! You don't need to first buy any kind of tag to activate your pet. It will be available for free to scan and print.
+            Main reason is ✨ It's free! ✨. It will be available for free to scan and print.
             With PuppySignal your friend will always be the maxium priority.
           </p>
         </div>
