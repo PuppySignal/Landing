@@ -10,24 +10,58 @@
   height: 100%
 }
 
-.howtosection {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  padding: 2rem;
-  color: #fd5a5f;
+.title_section {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  color: #6377e4;
 }
 
-.whysection {
+.description_section {
+  max-width: 350px;
+  color: #8779F5;
+}
+
+.section {
+  justify-content: center;
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   background-color: #ffffff;
   padding: 2rem;
-  color: #fd5a5f;
+}
+
+.section_emoji {
+  font-size: 150px;
+  display: none;
+}
+
+.section_emoji h1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: 30px;
+}
+
+.section_image {
+  display: none;
+  width: 350px;
+  height: 350px;
+}
+
+.section_image_img {
+  max-width: 100%;
+}
+
+.section_body {
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_reverse {
+  flex-direction: row-reverse;
 }
 
 .banner {
@@ -47,15 +81,23 @@
 }
 
 .bannerImage {
-  width: 40%;
-  top: 25px;
   height: 100%;
   display: none;
   position: relative;
+  align-items: center;
 }
 
 .bannerImageImg {
   max-width: 100%;
+  border: 2px solid #6377e4;
+  border-radius: 12px;
+  box-shadow:
+    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.022),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.031),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.039),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.048),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
 }
 
 .bannerImageBg {
@@ -74,7 +116,7 @@
   font-weight: 900;
   margin: 0;
   line-height: 1;
-  color: #fd5a5f;
+  color: #6377e4;
 }
 
 .subtitle {
@@ -83,13 +125,13 @@
   font-weight: 400;
   margin: 0;
   line-height: 1;
-  color: #fd5a5f;
+  color: #6377e4;
 }
 
 .description {
   margin-top: 25px;
   line-height: 1.5;
-  color: #fd5a5f;
+  color: #8779F5;
 }
 
 .cta {
@@ -109,11 +151,22 @@
 
 @media (min-width: 992px) { 
   .bannerImage {
-    display: block;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
   }
 
   .bannerInfo {
-    width: 55%;
+    width: 50%;
+  }
+
+  .section_image {
+    display: flex;
+  }
+
+  .section_emoji {
+    display: block;
   }
 
   .title {
@@ -135,5 +188,17 @@
   .whysection {
     padding: 5rem;
   }
+}
+
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  background-color: #8779F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 

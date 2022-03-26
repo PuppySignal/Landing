@@ -6,7 +6,7 @@
   height: min-content;
   background-color: #fff;
   z-index: 101;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #8779F5;
 }
 
 .closeBtn {
@@ -29,7 +29,7 @@
   display: inline;
   margin: 0 25px;
   font-weight: 600;
-  color: #fd5a5f;
+  color: #8779F5;
 }
 
 .buttonsburger li a:hover {
@@ -55,7 +55,7 @@
   width: 50px;
   height: 50px;
   display: block;
-  fill: #fd5a5f;
+  fill: #8779F5;
 }
 
 .buttons {
@@ -66,7 +66,7 @@
   display: inline;
   margin: 0 25px;
   font-weight: 600;
-  color: #fd5a5f;
+  color: #8779F5;
 }
 
 .buttons li a:hover {
@@ -74,7 +74,7 @@
 }
 
 .cta {
-  background-color: #fd5a5f;
+  background-color: #8779F5;
   color: #fff;
   padding: 10px;
   border-radius: 40px;
@@ -82,9 +82,6 @@
   cursor: pointer;
 }
 
-.burgericon {
-  display: ;
-}
 
 @media (min-width: 992px) {
   .navbar {

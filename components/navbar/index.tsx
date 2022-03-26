@@ -22,12 +22,10 @@ const Navbar: React.FC<any> = (props) => {
         </a>
         <ul className={styles.buttons}>
           <li><a href="#howtouse">How to use</a></li>
-          <li><a href="#why">Why PuppySignal?</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#support">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div className={styles.burgericon} onClick={() => setBurgerMenuOpen(true)}>
-          <GiHamburgerMenu color="#fd5a5f" size={32} />
+          <GiHamburgerMenu color="#8779F5" size={32} />
         </div>
         {/**
           <div className={styles.cta}>
@@ -45,9 +43,7 @@ const Navbar: React.FC<any> = (props) => {
           </div>
           <ul className={styles.buttonsburger}>
             <li><a href="#howtouse">How to use</a></li>
-            <li><a href="#why">Why PuppySignal?</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#support">Support</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}

@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.banner} id="home">
           <div className={styles.bannerImage}>
             <img 
-              src="/phones_.png" 
+              src="/phone_landing.gif"
               alt="Landing demostration"
               className={styles.bannerImageImg} 
             />
@@ -53,43 +53,36 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.howtosection} id="howtouse">
-          <h1>How does it works?</h1>
-          <p>It's pretty simple <strong>and cheap</strong>!</p>
-          <ul>
-            <li>You create an account</li>
-            <li>Then register your pet</li>
-            <li><strong>A QR Code will be generated for your pet</strong></li>
-            <li>Print in and make an awesome tag/collar with it, <strong>✨ be creative ✨ 👩🏻‍🎨 🎨</strong></li>
-          </ul>
-          <p>
-            That's it! If someday your pet get lost (We hope it doesn't).
-            <br/>
-            If people scan the code, you will be notified with his gps locations, and many options to be in contact with who scanned it</p>
+        <div className={styles.section} id="howtouse">
+          <div className={styles.section_image}>
+            <img 
+              src="/qr.png" 
+              alt="Landing demostration"
+              className={styles.section_image_img} 
+            />
+          </div>
+          <div className={styles.section_body}>
+            <h1 className={styles.title_section}>How to use</h1>
+            <p className={styles.description_section}>
+              First you need to create an account, then it is as easy as creating your pet profile, once you've done it.
+              A QR Code will be created for your pet. Print it and make an awesome tag/collar with it, <strong>✨ be creative ✨ 👩🏻‍🎨 🎨</strong>
+            </p>
+          </div>
         </div>
-        <div className={styles.whysection} id="why">
-          <h1>Why should I use PuppySignal?</h1>
-          <p>
-            Well, that's a good question.
-            <br/><br/>
-            Main reason is ✨ It's free! ✨. It will be available for free to scan and print.
-            With PuppySignal your friend will always be the maxium priority.
-          </p>
-        </div>
-        <div className={styles.whysection} id="pricing">
-          <h1>Pricing</h1>
-          <p>
-            Free.
-          </p>
-        </div>
-        <div className={styles.whysection} id="support">
-          <h1>Support</h1>
-          <p>
-            help@PuppySignal.com
-          </p>
+        <div className={`${styles.section} ${styles.section_reverse}`} id="contact">
+          <div className={styles.section_emoji}>
+            <h1>💬</h1>
+          </div>
+          <div className={styles.section_body}>
+            <h1 className={styles.title_section}>Contact</h1>
+            <p className={styles.description_section}>
+              Our contact email is <strong>contact@puppysignal.com</strong>, You can also contact us in any of our social medias.
+            </p>
+          </div>
         </div>
       </main>
       <footer className={styles.footer}>
+        <p>PuppySignal</p>
       </footer>
     </div>
   )
