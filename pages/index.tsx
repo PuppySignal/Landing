@@ -5,6 +5,7 @@ import Head from 'next/head'
 
 // @Project
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -81,9 +82,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className={styles.footer}>
-        <p>PuppySignal</p>
-      </footer>
+      <Footer />
     </div>
   )
 }

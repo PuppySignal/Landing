@@ -1,5 +1,6 @@
 // @Package
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { GiHamburgerMenu } from 'react-icons/gi'
 
@@ -12,17 +13,37 @@ const Navbar: React.FC<any> = (props) => {
   return (
     <>
       <nav className={styles.navbar}>
-        <a href="#home">
-          <img 
-            src="/logo.png"
-            alt="logo"
-            width={45}
-            height={32}
-          />
-        </a>
+        <Link href="/#home">
+          <a>
+            <img 
+              src="/logo.png"
+              alt="logo"
+              width={45}
+              height={32}
+            />
+          </a>
+        </Link>
         <ul className={styles.buttons}>
-          <li><a href="#howtouse">How to use</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <Link href="/#howtouse">
+            <a>
+              How to use
+            </a>
+          </Link>
+          <Link href="/#contact">
+            <a>
+              Contact
+            </a>
+          </Link>
+          <Link href="/terms-of-service">
+            <a>
+              Terms of service
+            </a>
+          </Link>
+          <Link href="/privacy-police">
+            <a>
+              Privacy police
+            </a>
+          </Link>
         </ul>
         <div className={styles.burgericon} onClick={() => setBurgerMenuOpen(true)}>
           <GiHamburgerMenu color="#8779F5" size={32} />
@@ -42,8 +63,26 @@ const Navbar: React.FC<any> = (props) => {
             X
           </div>
           <ul className={styles.buttonsburger}>
-            <li><a href="#howtouse">How to use</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <Link href="/#howtouse">
+              <a>
+                How to use
+              </a>
+            </Link>
+            <Link href="/#contact">
+              <a>
+                Contact
+              </a>
+            </Link>
+            <Link href="/terms-of-service">
+              <a>
+                Terms of service
+              </a>
+            </Link>
+            <Link href="/privacy-police">
+              <a>
+                Privacy police
+              </a>
+            </Link>
           </ul>
         </div>
       )}

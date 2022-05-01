@@ -18,14 +18,14 @@
   right: 15px;
 }
 
-.burgermenu .buttonsburger li {
+.burgermenu .buttonsburger a {
   display: block;
   margin: 30px 0;
   margin-left: auto;
 }
 
 
-.buttonsburger li {
+.buttonsburger a {
   display: inline;
   margin: 0 25px;
   font-weight: 600;
@@ -62,7 +62,7 @@
   display: none;
 }
 
-.buttons li {
+.buttons a {
   display: inline;
   margin: 0 25px;
   font-weight: 600;
