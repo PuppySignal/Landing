@@ -43,6 +43,10 @@ export default function Home() {
               <br/><br/>
               <strong>What do you need to start?</strong>
               <br/>
+              <p>
+                PuppySignal is not yet available given it stills work in progress. 👷🏻‍♀️
+              </p>
+              {/*
               <a href="#">
                 <img
                   src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
@@ -51,6 +55,7 @@ export default function Home() {
                   onClick={()=> alert("Work in progress.")}
                 />
               </a>
+              */}
             </p>
           </div>
         </div>
