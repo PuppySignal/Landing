@@ -34,6 +34,7 @@ const Navbar: React.FC<any> = (props) => {
               Contact
             </a>
           </Link>
+          {/*
           <Link href="/terms-of-service">
             <a>
               Terms of service
@@ -44,6 +45,7 @@ const Navbar: React.FC<any> = (props) => {
               Privacy police
             </a>
           </Link>
+          */}
         </ul>
         <div className={styles.burgericon} onClick={() => setBurgerMenuOpen(true)}>
           <GiHamburgerMenu color="#8779F5" size={32} />
@@ -73,16 +75,18 @@ const Navbar: React.FC<any> = (props) => {
                 Contact
               </a>
             </Link>
-            <Link href="/terms-of-service">
-              <a>
-                Terms of service
-              </a>
-            </Link>
-            <Link href="/privacy-police">
-              <a>
-                Privacy police
-              </a>
-            </Link>
+            {/*
+              <Link href="/terms-of-service">
+                <a>
+                  Terms of service
+                </a>
+              </Link>
+              <Link href="/privacy-police">
+                <a>
+                  Privacy police
+                </a>
+              </Link>
+            */}
           </ul>
         </div>
       )}
