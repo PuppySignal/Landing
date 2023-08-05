@@ -69,7 +69,7 @@
   color: #8779F5;
 }
 
-.buttons li a:hover {
+.buttons a:hover {
   text-decoration: underline;
 }
 
