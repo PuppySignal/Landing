@@ -29,7 +29,7 @@
   display: inline;
   margin: 0 25px;
   font-weight: 600;
-  color: #8779F5;
+  color: #fff;
 }
 
 .buttonsburger li a:hover {
@@ -41,7 +41,7 @@
   width: 100%;
   height: 60px;
   padding: 40px 2rem;
-  background-color: #fff;
+  background-color: #6377e4;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -66,7 +66,7 @@
   display: inline;
   margin: 0 25px;
   font-weight: 600;
-  color: #8779F5;
+  color: #fff;
 }
 
 .buttons a:hover {
@@ -74,7 +74,7 @@
 }
 
 .cta {
-  background-color: #8779F5;
+  background-color: #fff;
   color: #fff;
   padding: 10px;
   border-radius: 40px;

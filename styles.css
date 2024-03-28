@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: #6377e4;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
@@ -33,12 +33,12 @@ a {
   padding: 0;
   margin: 0;
   font-size: 3rem;
-  color: #6377e4;
+  color: #fff;
 }
 
 .description_section {
   max-width: 350px;
-  color: #8779F5;
+  color: #fff;
 }
 
 .section {
@@ -107,8 +107,8 @@ a {
 }
 
 .bannerImageImg {
-  max-width: 100%;
-  border: 2px solid #6377e4;
+  max-width: 50%;
+  border: 2px solid #fff;
   border-radius: 12px;
   box-shadow:
     3.4px 3.4px 2.7px rgba(0, 0, 0, 0.022),
@@ -135,7 +135,7 @@ a {
   font-weight: 900;
   margin: 0;
   line-height: 1;
-  color: #6377e4;
+  color: #fff;
 }
 
 .subtitle {
@@ -144,13 +144,13 @@ a {
   font-weight: 400;
   margin: 0;
   line-height: 1;
-  color: #6377e4;
+  color: #fff;
 }
 
 .description {
   margin-top: 25px;
   line-height: 1.5;
-  color: #8779F5;
+  color: #fff;
 }
 
 .cta {
@@ -213,40 +213,40 @@ a {
   }
 }
 
-#git_button {
-  border: 1px solid #ff6f00;
+.cta_button {
+  background-color: #4d5db3;
   display: flex;
   align-items: center;
-  padding: 8px 20px 8px 20px;
+  padding: 0px 20px;
   width: fit-content;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
-  color: #ff6f00;
+  color: #fff;
 }
 
-#git_button img {
-  width: 50px;
-  height: 50px;
+.cta_button img {
+  width: 30px;
+  height: 30px;
 }
 
-#git_button p {
-  margin-left: 20px;
-  margin-right: 20px;
+.cta_button p {
+  margin-left: 10px;
 }
 
-#git_button:hover {
-  background-color: #ff6f00;
+.cta_button:hover {
+  opacity: 0.8;
 }
 
-#git_button:hover img {
+.cta_button img {
   filter: brightness(0) invert(1);
 }
 
-#git_button:hover p {
-  color: #ffff;
+.cta_button_link {
+  width: fit-content;
+  margin-right: 10px;
 }
 
-#git_button_link {
-  width: fit-content;
+.bannerctas {
+  display: flex;
 }
